@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Library\DDSTextureLoader.cpp" />
+    <ClCompile Include="..\Source\gfxmanager.cpp" />
+    <ClCompile Include="..\Source\gfxcamera.cpp" />
+    <ClCompile Include="..\Source\gfxcomponent.cpp" />
+    <ClCompile Include="..\Source\FFObjectManager.cpp" />
+    <ClCompile Include="..\Source\GFXRenderTexture.cpp" />
+    <ClCompile Include="..\Source\GFXPostProcessManager.cpp" />
+    <ClCompile Include="..\Source\gfxorthocamera.cpp" />
+    <ClCompile Include="..\Source\gfxbasecamera.cpp" />
+    <ClCompile Include="..\Source\GFXPostProcessingFilter.cpp" />
+    <ClCompile Include="..\Source\GFXPostProcessingFilterColorCorrection.cpp" />
+    <ClCompile Include="..\Source\gfxBaseComponent.cpp" />
+    <ClCompile Include="..\Source\GFXUIComponent.cpp" />
+    <ClCompile Include="..\Source\gfxHelper.cpp" />
+    <ClCompile Include="..\Source\FFProjectorCalibrationStateAdjustPlane.cpp" />
+    <ClCompile Include="..\Source\AJFaceComponent.cpp" />
+    <ClCompile Include="..\Source\AJKinect.cpp" />
+    <ClCompile Include="..\Source\AJProjectorSearchState.cpp" />
+    <ClCompile Include="..\Source\AJPointPairLogicCapture.cpp" />
+    <ClCompile Include="..\Source\AJPointPairComponent.cpp" />
+    <ClCompile Include="..\Source\AJPointPairLogicBaseState.cpp" />
+    <ClCompile Include="..\Source\AJObject.cpp" />
+    <ClCompile Include="..\Source\AJProjectorCalibrationState.cpp" />
+    <ClCompile Include="..\Source\AJFaceProjectionState.cpp" />
+    <ClCompile Include="..\Source\AJPointPairGenerator.cpp" />
+    <ClCompile Include="..\Source\AJBaseState.cpp" />
+    <ClCompile Include="..\Source\AJMathHelper.cpp" />
+    <ClCompile Include="..\Source\AJColorCalibrationState.cpp" />
+    <ClCompile Include="..\Source\AJControlFlowState.cpp" />
+    <ClCompile Include="..\Source\AJMainMenuState.cpp" />
+    <ClCompile Include="..\Source\AJFlowManager.cpp" />
+    <ClCompile Include="..\Source\AJDemoState.cpp" />
+    <ClCompile Include="..\Source\AJFlowState.cpp" />
+    <ClCompile Include="..\Source\AJKinectHelper.cpp" />
+    <ClCompile Include="..\Source\AJKeyboardManager.cpp" />
+    <ClCompile Include="..\Source\AJPointPairLogicInit.cpp" />
+    <ClCompile Include="..\Source\AJRecordFaceState.cpp" />
+    <ClCompile Include="..\Source\AJStateManager.cpp" />
+    <ClCompile Include="..\Source\AJTime.cpp" />
+    <ClCompile Include="..\Source\AJTimeManager.cpp" />
+    <ClCompile Include="..\Source\AJFactoryManager.cpp" />
+    <ClCompile Include="..\Source\AJWavFormat.cpp" />
+    <ClCompile Include="..\Source\AJOBJFormat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Resource\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\DDSTextureLoader.h" />
+    <ClInclude Include="..\Source\predefine.h" />
+    <ClInclude Include="..\Source\gfxheader.h" />
+    <ClInclude Include="..\Source\gfxmanager.h" />
+    <ClInclude Include="..\Source\gfxcamera.h" />
+    <ClInclude Include="..\Source\gfxcomponent.h" />
+    <ClInclude Include="..\Source\FFObjectManager.h" />
+    <ClInclude Include="..\Source\GFXRenderTexture.h" />
+    <ClInclude Include="..\Source\GFXPostProcessManager.h" />
+    <ClInclude Include="..\Source\gfxorthocamera.h" />
+    <ClInclude Include="..\Source\gfxbasecamera.h" />
+    <ClInclude Include="..\Source\GFXPostProcessingFilter.h" />
+    <ClInclude Include="..\Source\GFXPostProcessingFilterColorCorrection.h" />
+    <ClInclude Include="..\Source\gfxBaseComponent.h" />
+    <ClInclude Include="..\Source\GFXUIComponent.h" />
+    <ClInclude Include="..\Source\gfxHelper.h" />
+    <ClInclude Include="..\Source\FFProjectorCalibrationStateAdjustPlane.h" />
+    <ClInclude Include="..\Source\AJBaseComponent.h" />
+    <ClInclude Include="..\Source\AJFaceComponent.h" />
+    <ClInclude Include="..\Source\AJKinect.h" />
+    <ClInclude Include="..\Source\AJProjectorSearchState.h" />
+    <ClInclude Include="..\Source\AJPointPairLogicCapture.h" />
+    <ClInclude Include="..\Source\AJPointPairComponent.h" />
+    <ClInclude Include="..\Source\AJPointPairLogicBaseState.h" />
+    <ClInclude Include="..\Source\AJObject.h" />
+    <ClInclude Include="..\Source\AJProjectorCalibrationState.h" />
+    <ClInclude Include="..\Source\AJFaceProjectionState.h" />
+    <ClInclude Include="..\Source\AJPointPairGenerator.h" />
+    <ClInclude Include="..\Source\AJBaseState.h" />
+    <ClInclude Include="..\Source\AJMathHelper.h" />
+    <ClInclude Include="..\Source\AJColorCalibrationState.h" />
+    <ClInclude Include="..\Source\AJControlFlowState.h" />
+    <ClInclude Include="..\Source\AJMainMenuState.h" />
+    <ClInclude Include="..\Source\AJFlowManager.h" />
+    <ClInclude Include="..\Source\AJDemoState.h" />
+    <ClInclude Include="..\Source\AJFlowState.h" />
+    <ClInclude Include="..\Source\AJKinectHelper.h" />
+    <ClInclude Include="..\Source\AJKeyboardManager.h" />
+    <ClInclude Include="..\Source\AJPointPairLogicInit.h" />
+    <ClInclude Include="..\Source\AJMathHeader.h" />
+    <ClInclude Include="..\Source\AJRecordFaceState.h" />
+    <ClInclude Include="..\Source\AJStateManager.h" />
+    <ClInclude Include="..\Source\AJTime.h" />
+    <ClInclude Include="..\Source\AJTimeManager.h" />
+    <ClInclude Include="..\Source\AJFactoryManager.h" />
+    <ClInclude Include="..\Source\AJWavFormat.h" />
+    <ClInclude Include="..\Source\AJOBJFormat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Resource\FrankestFury.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shader\GFXShaderTexture.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\GFXShaderNormal.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\GFXShaderColorCorrection.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
